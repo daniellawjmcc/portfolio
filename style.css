@@ -871,3 +871,29 @@ body.modal-open {
   font-size: 0.98rem !important;
   font-weight: 800 !important;
 }
+
+/* Fabrication - Yellow Theme */
+.project-card.theme-yellow {
+  background: linear-gradient(to bottom, #ffffff 75%, #fffbeb 100%) !important;
+  border-color: #d97706 !important;
+  box-shadow: 8px 8px 0 #fde68a !important;
+}
+
+.project-card.theme-yellow:hover {
+  box-shadow: 13px 13px 0 #fcd34d !important;
+}
+
+.project-card.theme-yellow::before {
+  border-color: #d97706 !important;
+  color: #d97706 !important;
+}
+
+.project-card.theme-yellow .project-category {
+  color: #d97706 !important;
+}
+
+.project-card.theme-yellow .tags span {
+  background: #fef3c7 !important;
+  border-color: #d97706 !important;
+  color: #92400e !important;
+}

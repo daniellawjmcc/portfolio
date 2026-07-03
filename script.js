@@ -36,45 +36,68 @@ const projectData = {
   },
 
   warman: {
-    category: "Mechanical Design / Robotics",
-    title: "Warman Competition Robot",
+    category: "Autonomous Robotics / Mechanical Design",
+    title: "Warman Autonomous Ball Collection Robot",
     description:
-      "This project involved designing and building a robot for an engineering competition. The robot required mechanical design, actuation, system testing, and iterative improvements to complete the competition task reliably.",
+      "This project involved designing, building, and programming a competition robot to navigate an arena, collect different balls, traverse rough terrain through a seesaw obstacle, and deposit the balls into the end zone. The robot required mechanical design, actuation, sensing, autonomous navigation logic, and repeated testing to improve reliability.",
     role:
-      "My role involved mechanical design, fabrication support, assembly, testing, troubleshooting, and improving the robot design based on performance issues observed during testing.",
-    tags: ["Mechanical Design", "Robotics", "Fabrication", "Testing"],
+      "My role involved mechanical design, fabrication support, robot assembly, programming, testing, troubleshooting, and improving the pickup and traversal mechanisms based on performance during trial runs.",
+    tags: [
+      "Autonomous Robot",
+      "Navigation",
+      "Ball Collection",
+      "Mechanism Design",
+      "Terrain Traversal",
+      "Fabrication",
+      "Testing",
+      "Competition Robot"
+    ],
     media: [
       {
         type: "image",
         src: "assets/images/Warman-Robot.png",
-        caption: "Final robot prototype"
+        caption: "Competition robot designed to collect balls and traverse the seesaw obstacle"
       },
       {
         type: "video",
         src: "assets/videos/Warman-Test.mp4",
-        caption: "Robot testing video"
+        caption: "Robot testing and arena navigation demo"
       },
       {
         type: "image",
         src: "assets/images/warman-robot-2.jpg",
-        caption: "Mechanism close-up"
+        caption: "Mechanism and chassis close-up"
       }
     ]
   },
 
-  autonomous: {
-    category: "Control Systems / ROS 2",
-    title: "Autonomous Vehicle Longitudinal Controller",
+  enclosure: {
+    category: "CAD / 3D Printing / Digital Fabrication",
+    title: "DIN-Rail Raspberry Pi Enclosure and Fabrication Jig",
     description:
-      "This project focused on developing a vehicle control system using trajectory tracking, PID control, and ROS-based software integration for autonomous driving behaviour.",
+      "Designed and fabricated a custom DIN-rail mounted enclosure for a Raspberry Pi system. The project focused on CAD modelling, 3D printing, laser cutting, fibre etching, tolerance design, component fit, mounting access, and jig design for repeatable fabrication.",
     role:
-      "I worked on the control logic, parameter tuning, testing, and integration of the controller with the vehicle simulation environment.",
-    tags: ["ROS 2", "PID Control", "Python", "Trajectory Tracking"],
+      "I worked on the CAD design, enclosure layout, DIN-rail mounting features, 3D printing preparation, tolerance checks, fit testing, laser-cut support components, fibre etching details, and jig design for holding or aligning the enclosure during fabrication.",
+    tags: [
+      "CAD Design",
+      "3D Printing",
+      "DIN Rail",
+      "Laser Cutting",
+      "Fibre Etching",
+      "Tolerance Design",
+      "Jig Design",
+      "Design for Manufacturing"
+    ],
     media: [
       {
         type: "image",
-        src: "assets/images/autonomous-vehicle.jpg",
-        caption: "Autonomous vehicle simulation"
+        src: "assets/images/raspberry-pi-enclosure.jpg",
+        caption: "3D printed DIN-rail enclosure designed to house the Raspberry Pi system"
+      },
+      {
+        type: "image",
+        src: "assets/images/enclosure-jig.jpg",
+        caption: "Fabrication jig and fixtures used for positioning and repeatability"
       }
     ]
   }
