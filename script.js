@@ -27,7 +27,7 @@ const projectData = {
     media: [
       {
         type: "image",
-        src: "assets/images/warman-robot.jpg",
+        src: "assets/images/Warman-Robot.png",
         caption: "Final robot prototype"
       },
       {
