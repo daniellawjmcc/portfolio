@@ -172,7 +172,7 @@ a {
 .section {
   width: 92%;
   margin: 0 auto 45px;
-  padding: 50px 6%;
+  padding: 38px 6%;
   border-radius: 36px;
   background: rgba(255, 255, 255, 0.58);
   backdrop-filter: blur(16px);
@@ -761,4 +761,80 @@ body.modal-open {
   background: #dcfce7 !important;
   border-color: #16a34a !important;
   color: #166534 !important;
+}
+
+/* COMPACT HERO */
+
+.hero {
+  min-height: auto !important;
+  padding: 12px 8% 24px !important;
+  background: transparent;
+}
+
+.hero-content {
+  max-width: 1050px !important;
+  margin-top: 18px !important;
+}
+
+.tagline {
+  display: inline-block;
+  padding: 6px 11px;
+  border-radius: 999px;
+  background: #fce7f3;
+  color: #be185d;
+  font-size: 0.78rem;
+  font-weight: 800;
+  margin-bottom: 12px !important;
+}
+
+.hero h1 {
+  font-size: clamp(1.8rem, 3.4vw, 3.1rem) !important;
+  line-height: 1.05 !important;
+  letter-spacing: -0.045em;
+  color: #111827;
+  max-width: 950px;
+  margin-bottom: 12px !important;
+}
+
+.hero-text {
+  max-width: 760px;
+  color: #4b5563;
+  font-size: 0.95rem !important;
+  margin-bottom: 16px !important;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 17px !important;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 0.85rem !important;
+}
+
+/* COMPACT NAVBAR */
+
+.navbar {
+  margin: 8px auto !important;
+  padding: 10px 18px !important;
+}
+
+.logo {
+  font-size: 0.9rem !important;
+}
+
+.nav-links {
+  gap: 16px !important;
+}
+
+.nav-links a {
+  font-size: 0.8rem !important;
+}
+
+.nav-cv {
+  padding: 7px 12px !important;
 }
