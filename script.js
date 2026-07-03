@@ -1,17 +1,36 @@
 const projectData = {
-  smartfab: {
-    category: "AI / Manufacturing / Robotics",
-    title: "SmartFab: AI Voice-to-Product Manufacturing System",
+  penguin: {
+    category: "Robotics / Computer Vision / Autonomous Navigation",
+    title: "Autonomous Mapping and Object Detection Robot",
     description:
-      "SmartFab is a concept for an AI-driven manufacturing cell where users describe a product using natural language. The system then interprets the request, generates a CAD preview, and plans a simplified fabrication workflow.",
+      "This project used a Penguin Pi robot to autonomously explore an environment, localise itself, detect ArUco markers and fruit objects, and build a map showing their positions. The system combined marker-based localisation, Kalman filtering, YOLOv8 object detection, and Dijkstra path planning for autonomous navigation.",
     role:
-      "I worked on the concept development, system architecture, user workflow, and visual explanation of how AI, CAD generation, robotics, and manufacturing could be integrated into one system.",
-    tags: ["AI", "CAD", "Robotics", "Manufacturing"],
+      "I worked on the robot perception and navigation pipeline, including ArUco marker detection, localisation filtering, fruit detection using YOLOv8, map generation, and path planning logic to avoid obstacles while navigating through the environment.",
+    tags: [
+      "Autonomous Navigation",
+      "Computer Vision",
+      "YOLOv8",
+      "ArUco Markers",
+      "Kalman Filter",
+      "Dijkstra Algorithm",
+      "Mapping",
+      "Python"
+    ],
     media: [
       {
         type: "image",
-        src: "assets/images/smartfab.jpg",
-        caption: "SmartFab concept visual"
+        src: "assets/images/penguin-pi-map.jpg",
+        caption: "Generated map showing robot-localised ArUco markers and detected fruit objects"
+      },
+      {
+        type: "image",
+        src: "assets/images/aruco-detection.jpg",
+        caption: "ArUco marker detection for localisation"
+      },
+      {
+        type: "image",
+        src: "assets/images/yolov8-fruit-detection.jpg",
+        caption: "YOLOv8 fruit detection integrated into the robot map"
       }
     ]
   },
@@ -32,7 +51,7 @@ const projectData = {
       },
       {
         type: "video",
-        src: "assets/videos/warman-demo.mp4",
+        src: "assets/videos/Warman-Test.MOV",
         caption: "Robot testing video"
       },
       {
