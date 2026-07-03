@@ -41,7 +41,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 10;
-  margin: 18px auto;
+  margin: 12px auto;
   width: 92%;
   padding: 14px 22px;
   border-radius: 999px;
@@ -94,14 +94,14 @@ a {
 /* HERO */
 
 .hero {
-  min-height: 85vh;
-  padding: 30px 8% 80px;
+  min-height: auto;
+  padding: 24px 8% 50px;
   background: transparent;
 }
 
 .hero-content {
-  max-width: 850px;
-  margin-top: 120px;
+  max-width: 900px;
+  margin-top: 55px;
 }
 
 .tagline {
@@ -116,19 +116,19 @@ a {
 }
 
 .hero h1 {
-  font-size: clamp(2.8rem, 6vw, 5.8rem);
-  line-height: 0.95;
-  letter-spacing: -0.06em;
+  font-size: clamp(2.1rem, 4.5vw, 4rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
   color: #111827;
   max-width: 900px;
-  margin-bottom: 28px;
+  margin-bottom: 18px;
 }
 
 .hero-text {
-  max-width: 680px;
+  max-width: 720px;
   color: #4b5563;
-  font-size: 1.12rem;
-  margin-bottom: 34px;
+  font-size: 1rem;
+  margin-bottom: 22px;
 }
 
 .hero-buttons {
@@ -171,8 +171,8 @@ a {
 
 .section {
   width: 92%;
-  margin: 0 auto 70px;
-  padding: 60px 6%;
+  margin: 0 auto 45px;
+  padding: 50px 6%;
   border-radius: 36px;
   background: rgba(255, 255, 255, 0.58);
   backdrop-filter: blur(16px);
