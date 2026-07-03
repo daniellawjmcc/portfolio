@@ -52,7 +52,7 @@
     <h2>Engineering Projects</h2>
 
     <div class="project-grid">
-      <div class="project-card" data-number="01">
+      <div class="project-card" data-number="01" data-project="smartfab">
         <img src="assets/images/smartfab.jpg" alt="SmartFab Project" />
         <div class="project-info">
           <h3>SmartFab: AI Voice-to-Product Manufacturing System</h3>
@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div class="project-card" data-number="02">
+      <div class="project-card" data-number="02" data-project="warman">
         <img src="assets/images/Warman-Robot.png" alt="Warman Robot" />
         <div class="project-info">
           <h3>Warman Competition Robot</h3>
@@ -85,7 +85,7 @@
         </div>
       </div>
 
-      <div class="project-card" data-number="03">
+      <div class="project-card" data-number="03" data-project="autonomous">
         <img src="assets/images/autonomous-vehicle.jpg" alt="Autonomous Vehicle Controller" />
         <div class="project-info">
           <h3>Autonomous Vehicle Longitudinal Controller</h3>
@@ -138,6 +138,36 @@
   <footer>
     <p>© 2026 Daniel Law. Engineering Portfolio.</p>
   </footer>
+
+  <div class="modal-overlay" id="projectModal">
+    <div class="project-modal">
+      <button class="modal-close" id="modalClose">×</button>
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-category" id="modalCategory">Project</p>
+          <h2 id="modalTitle">Project Title</h2>
+          <p id="modalDescription">
+            Project description will appear here.
+          </p>
+        </div>
+
+        <div class="modal-gallery" id="modalGallery"></div>
+
+        <div class="modal-details">
+          <div>
+            <h3>My Role</h3>
+            <p id="modalRole"></p>
+          </div>
+
+          <div>
+            <h3>Skills Used</h3>
+            <div class="tags" id="modalTags"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
