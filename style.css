@@ -669,3 +669,83 @@ body.modal-open {
   color: #6b7280;
   margin-bottom: 12px;
 }
+
+/* FINAL PROJECT COLOUR OVERRIDES - put this at the VERY BOTTOM */
+
+/* SmartFab - Blue */
+.project-card.theme-blue {
+  background: linear-gradient(to bottom, #ffffff 75%, #eff6ff 100%) !important;
+  border-color: #2563eb !important;
+  box-shadow: 8px 8px 0 #bfdbfe !important;
+}
+
+.project-card.theme-blue:hover {
+  box-shadow: 13px 13px 0 #93c5fd !important;
+}
+
+.project-card.theme-blue::before {
+  border-color: #2563eb !important;
+  color: #2563eb !important;
+}
+
+.project-card.theme-blue .project-category {
+  color: #2563eb !important;
+}
+
+.project-card.theme-blue .tags span {
+  background: #dbeafe !important;
+  border-color: #2563eb !important;
+  color: #1e3a8a !important;
+}
+
+/* Warman - Pink */
+.project-card.theme-pink {
+  background: linear-gradient(to bottom, #ffffff 75%, #fdf2f8 100%) !important;
+  border-color: #db2777 !important;
+  box-shadow: 8px 8px 0 #fbcfe8 !important;
+}
+
+.project-card.theme-pink:hover {
+  box-shadow: 13px 13px 0 #f9a8d4 !important;
+}
+
+.project-card.theme-pink::before {
+  border-color: #db2777 !important;
+  color: #db2777 !important;
+}
+
+.project-card.theme-pink .project-category {
+  color: #db2777 !important;
+}
+
+.project-card.theme-pink .tags span {
+  background: #fce7f3 !important;
+  border-color: #db2777 !important;
+  color: #9d174d !important;
+}
+
+/* Autonomous - Green */
+.project-card.theme-green {
+  background: linear-gradient(to bottom, #ffffff 75%, #f0fdf4 100%) !important;
+  border-color: #16a34a !important;
+  box-shadow: 8px 8px 0 #bbf7d0 !important;
+}
+
+.project-card.theme-green:hover {
+  box-shadow: 13px 13px 0 #86efac !important;
+}
+
+.project-card.theme-green::before {
+  border-color: #16a34a !important;
+  color: #16a34a !important;
+}
+
+.project-card.theme-green .project-category {
+  color: #16a34a !important;
+}
+
+.project-card.theme-green .tags span {
+  background: #dcfce7 !important;
+  border-color: #16a34a !important;
+  color: #166534 !important;
+}
