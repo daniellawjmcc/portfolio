@@ -51,7 +51,7 @@ const projectData = {
       },
       {
         type: "video",
-        src: "assets/videos/Warman-Test.MOV",
+        src: "assets/videos/Warman-Test.mp4",
         caption: "Robot testing video"
       },
       {
