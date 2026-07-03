@@ -91,12 +91,12 @@ const projectData = {
     media: [
       {
         type: "image",
-        src: "assets/images/raspberry-pi-enclosure.jpg",
+        src: "assets/images/Enclosure-Inside.jpg",
         caption: "3D printed DIN-rail enclosure designed to house the Raspberry Pi system"
       },
       {
         type: "image",
-        src: "assets/images/enclosure-jig.jpg",
+        src: "assets/images/Enclosure-Jig.jpg",
         caption: "Fabrication jig and fixtures used for positioning and repeatability"
       }
     ]
