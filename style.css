@@ -838,3 +838,36 @@ body.modal-open {
 .nav-cv {
   padding: 7px 12px !important;
 }
+
+/* LARGER NAVBAR FINAL OVERRIDE */
+
+.navbar {
+  margin: 14px auto !important;
+  padding: 16px 24px !important;
+  min-height: 68px !important;
+}
+
+.logo {
+  font-size: 1.1rem !important;
+  font-weight: 900 !important;
+}
+
+.logo::before {
+  font-size: 1.05rem !important;
+  margin-right: 10px !important;
+}
+
+.nav-links {
+  gap: 24px !important;
+}
+
+.nav-links a {
+  font-size: 0.98rem !important;
+  font-weight: 700 !important;
+}
+
+.nav-cv {
+  padding: 11px 18px !important;
+  font-size: 0.98rem !important;
+  font-weight: 800 !important;
+}
