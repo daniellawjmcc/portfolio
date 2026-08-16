@@ -85,7 +85,7 @@ const projectData = {
       },
       {
         type: "image",
-        src: "assets/images/Warman-CAD.png",
+        src: "assets/images/Award.jpg",
         caption: "Award receiving for Champion"
       }
 
