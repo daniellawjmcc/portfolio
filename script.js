@@ -71,33 +71,43 @@ const projectData = {
     ]
   },
 
-  enclosure: {
-    category: "CAD / 3D Printing / Digital Fabrication",
-    title: "DIN-Rail Raspberry Pi Enclosure and Fabrication Jig",
+  fabrication: {
+    category: "Current Casual Engineering Work / CAD / Manufacturing",
+
+    title: "3D Design, Prototyping and Fabrication",
+
     description:
-      "Designed and fabricated a custom DIN-rail mounted enclosure for a Raspberry Pi system. The project focused on CAD modelling, 3D printing, laser cutting, fibre etching, tolerance design, component fit, mounting access, and jig design for repeatable fabrication.",
+      "This represents work completed as part of my current casual Mechatronics Engineer position. My work involves developing custom mechanical components and assemblies from client requirements through CAD design, prototyping, fabrication and refinement, while maintaining confidentiality around specific customer projects.",
+
     role:
-      "I worked on the CAD design, enclosure layout, DIN-rail mounting features, 3D printing preparation, tolerance checks, fit testing, laser-cut support components, fibre etching details, and jig design for holding or aligning the enclosure during fabrication.",
+      "I work with customer requirements to develop practical mechanical solutions using CAD modelling, tolerance and fit design, prototyping and fabrication. I manufacture components using FDM 3D printing, laser cutting and other workshop processes, then refine designs through assembly, testing and client feedback. I have also designed jigs and fixtures to improve manufacturing consistency and repeatability.",
+
     tags: [
       "CAD Design",
+      "3D Modelling",
       "3D Printing",
-      "DIN Rail",
+      "Rapid Prototyping",
       "Laser Cutting",
-      "Fibre Etching",
+      "Fibre Laser Engraving",
       "Tolerance Design",
+      "Mechanical Assembly",
       "Jig Design",
-      "Design for Manufacturing"
+      "Design for Manufacturing",
+      "Client Requirements",
+      "Product Development"
     ],
+
     media: [
       {
         type: "image",
-        src: "assets/images/Enclosure-Inside.jpg",
-        caption: "3D printed DIN-rail enclosure designed to house the Raspberry Pi system"
+        src: "assets/images/DIN-Enclosure.jpg",
+        caption: "Example of CAD design, prototyping and fabrication work"
       },
+
       {
         type: "image",
         src: "assets/images/Enclosure-Jig.jpg",
-        caption: "Fabrication jig and fixtures used for positioning and repeatability"
+        caption: "Example of fabrication tooling and fixture design"
       }
     ]
   },
