@@ -100,6 +100,55 @@ const projectData = {
         caption: "Fabrication jig and fixtures used for positioning and repeatability"
       }
     ]
+  },
+
+    mcav: {
+    category: "Mechanical Design / Autonomous Vehicle / Manufacturing",
+
+    title: "Monash Connected Autonomous Vehicle (MCAV)",
+
+    description:
+      "As part of the Monash Connected Autonomous Vehicle mechanical team, I contributed to the design and manufacture of a four-wheel-drive, four-wheel-steer vehicle platform. The project involved developing the chassis, drivetrain, suspension, steering system and mechanical integration required to support the vehicle's electrical and autonomous systems.",
+
+    role:
+      "I designed and modelled the chassis, drivetrain, suspension and wheel mounting systems, including an Ackermann-based steering geometry for four-wheel steering. Components were manufactured using 3D printing, laser cutting and machining before being assembled into the complete vehicle. I then worked alongside the electrical and software teams during system integration and vehicle testing, refining mechanical components based on fitment, steering clearance, manufacturability and testing performance.",
+
+    tags: [
+      "Mechanical Design",
+      "3D Modelling",
+      "CAD",
+      "Chassis Design",
+      "Ackermann Steering",
+      "Suspension Design",
+      "Drivetrain",
+      "3D Printing",
+      "Laser Cutting",
+      "Machining",
+      "Mechanical Assembly",
+      "Prototyping",
+      "System Integration",
+      "Testing"
+    ],
+
+    media: [
+      {
+        type: "image",
+        src: "assets/images/MCAV-Car.jpg",
+        caption: "4WD four-wheel-steer vehicle platform developed by the MCAV team"
+      },
+
+      {
+        type: "image",
+        src: "assets/images/MCAV-CAD.jpg",
+        caption: "CAD design showing the chassis, drivetrain, suspension and steering system"
+      },
+
+      {
+        type: "image",
+        src: "assets/images/MCAV-Steering.jpg",
+        caption: "Ackermann steering and suspension assembly"
+      }
+    ]
   }
 };
 
