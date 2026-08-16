@@ -3,7 +3,7 @@ const projectData = {
     category: "Robotics / Computer Vision / Autonomous Navigation",
     title: "Autonomous Mapping and Object Detection Robot",
     description:
-      "This project used a Penguin Pi robot to autonomously explore an environment, localise itself, detect ArUco markers and fruit objects, and build a map showing their positions. The system combined marker-based localisation, Kalman filtering, YOLOv8 object detection, and Dijkstra path planning for autonomous navigation.",
+      "This project used a Penguin Pi robot to autonomously explore an environment, localise itself, detect ArUco markers and fruit objects, subsequently collecting fruits from a given list, and build a map showing their positions. The system combined marker-based localisation, Kalman filtering, YOLOv8 object detection, and Dijkstra path planning for autonomous navigation.",
     role:
       "I worked on the robot perception and navigation pipeline, including ArUco marker detection, localisation filtering, fruit detection using YOLOv8, map generation, and path planning logic to avoid obstacles while navigating through the environment.",
     tags: [
@@ -19,31 +19,41 @@ const projectData = {
     media: [
       {
         type: "image",
-        src: "assets/images/penguin-pi-map.jpg",
-        caption: "Generated map showing robot-localised ArUco markers and detected fruit objects"
+        src: "assets/images/PenguinPi.jpg",
+        caption: "Close-up of the PenguinPi"
       },
       {
         type: "image",
-        src: "assets/images/aruco-detection.jpg",
-        caption: "ArUco marker detection for localisation"
+        src: "assets/images/Fruit-List.png",
+        caption: "Fruits that needed to be recognized by training a YOLO model"
       },
       {
         type: "image",
-        src: "assets/images/yolov8-fruit-detection.jpg",
-        caption: "YOLOv8 fruit detection integrated into the robot map"
+        src: "assets/images/YOLO-Train.jpg",
+        caption: "YOLOv8 fruit detection training"
+      },
+      {
+        type: "image",
+        src: "assets/images/Interface-1.png",
+        caption: "YOLOv8 fruit detection, ARUCO detection for self localisation, and Dijkstra algortihm integrated into the robot map"
+      },
+      {
+        type: "image",
+        src: "assets/images/Interface-2.png",
+        caption: "Another picture of the interface, showing smaller circles representing less uncertainty, and hollow circles representing collected fruits "
       }
     ]
   },
 
   warman: {
-    category: "Autonomous Robotics / Mechanical Design",
-    title: "Warman Autonomous Ball Collection Robot",
+    category: "Robotics / Mechanical Design",
+    title: "Warman Load Handling and Terrain Traversal Robot (Champion)",
     description:
       "This project involved designing, building, and programming a competition robot to navigate an arena, collect different balls, traverse rough terrain through a seesaw obstacle, and deposit the balls into the end zone. The robot required mechanical design, actuation, sensing, autonomous navigation logic, and repeated testing to improve reliability.",
     role:
       "My role involved mechanical design, fabrication support, robot assembly, programming, testing, troubleshooting, and improving the pickup and traversal mechanisms based on performance during trial runs.",
     tags: [
-      "Autonomous Robot",
+      "Robot",
       "Navigation",
       "Ball Collection",
       "Mechanism Design",
@@ -59,15 +69,26 @@ const projectData = {
         caption: "Competition robot designed to collect balls and traverse the seesaw obstacle"
       },
       {
+        type: "image",
+        src: "assets/images/Warman-CAD.png",
+        caption: "Final CAD model of the robot design"
+      },
+      {
+        type: "video",
+        src: "assets/videos/Warman-Servo.mp4",
+        caption: "Servo calibration for load collection mechanism"
+      },
+      {
         type: "video",
         src: "assets/videos/Warman-Test.mp4",
         caption: "Robot testing and arena navigation demo"
       },
       {
         type: "image",
-        src: "assets/images/warman-robot-2.jpg",
-        caption: "Mechanism and chassis close-up"
+        src: "assets/images/Warman-CAD.png",
+        caption: "Award receiving for Champion"
       }
+
     ]
   },
 
@@ -101,13 +122,13 @@ const projectData = {
       {
         type: "image",
         src: "assets/images/DIN-Enclosure.jpg",
-        caption: "Example of CAD design, prototyping and fabrication work"
+        caption: "Prototyping of Enclosure Design and Jig Design"
       },
 
       {
         type: "image",
-        src: "assets/images/Enclosure-Jig.jpg",
-        caption: "Example of fabrication tooling and fixture design"
+        src: "assets/images/Fibre-Laser.jpg",
+        caption: "Testing of Laser Etching Power to be implemented in design"
       }
     ]
   },
@@ -149,13 +170,13 @@ const projectData = {
 
       {
         type: "image",
-        src: "assets/images/MCAV-CAD.jpg",
+        src: "assets/images/MCAV-CAD.png",
         caption: "CAD design showing the chassis, drivetrain, suspension and steering system"
       },
 
       {
         type: "image",
-        src: "assets/images/MCAV-Steering.jpg",
+        src: "assets/images/MCAV-Steer.jpg",
         caption: "Ackermann steering and suspension assembly"
       }
     ]
