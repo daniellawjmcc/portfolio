@@ -897,3 +897,52 @@ body.modal-open {
   border-color: #d97706 !important;
   color: #92400e !important;
 }
+
+/* =========================
+   COMPACT PROJECT CARDS
+   Larger images, less text space
+========================= */
+
+.project-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 2px solid #111827;
+}
+
+.project-info {
+  padding: 16px 18px 14px;
+}
+
+.project-category {
+  font-size: 0.66rem;
+  margin-bottom: 6px;
+}
+
+.project-info h3 {
+  font-size: 1.05rem;
+  line-height: 1.15;
+  margin-bottom: 8px;
+}
+
+.project-info > p:not(.project-category):not(.explore-text) {
+  font-size: 0.82rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.tags {
+  gap: 5px;
+}
+
+.tags span {
+  padding: 4px 8px;
+  font-size: 0.64rem;
+}
+
+.explore-text {
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  font-size: 0.64rem !important;
+}
