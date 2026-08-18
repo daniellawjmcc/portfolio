@@ -133,7 +133,7 @@ const projectData = {
     ]
   },
 
-    mcav: {
+  mcav: {
     category: "Mechanical Design / Autonomous Vehicle / Manufacturing",
 
     title: "Monash Connected Autonomous Vehicle (MCAV)",
@@ -178,6 +178,45 @@ const projectData = {
         type: "image",
         src: "assets/images/MCAV-Steer.jpg",
         caption: "Ackermann steering and suspension assembly"
+      }
+    ]
+  },
+  sorter: {
+    category: "PLC / Industrial Automation / Sensors & Actuators",
+
+    title: "Automated Sorter and Can Crusher",
+
+    description:
+      "This project involved developing an automated conveyor-based sorting and can-crushing system controlled using PLC logic. Objects travelling along the conveyor were identified using capacitive and inductive proximity sensors. Non-metal objects were automatically rejected using a pneumatic actuator, while detected cans continued through the system for collection and crushing.",
+
+    role:
+      "I developed the PLC control sequence and integrated the sensors, conveyor and pneumatic actuators into the complete system. A capacitive proximity sensor detected objects on the conveyor while an inductive proximity sensor identified metal cans. If an object was not identified as a can, a pneumatic actuator was triggered to remove it from the conveyor. The PLC counted accepted cans and, once four cans were detected, stopped the conveyor and initiated the crushing sequence before releasing the crushed cans. The project strengthened my understanding of PLC programming, sensor selection, actuator control, sequencing and industrial automation.",
+
+    tags: [
+      "PLC Programming",
+      "Industrial Automation",
+      "Capacitive Sensor",
+      "Inductive Sensor",
+      "Pneumatic Actuation",
+      "Conveyor Control",
+      "Sequential Logic",
+      "Sensor Integration",
+      "Actuator Control",
+      "System Integration",
+      "Testing"
+    ],
+
+    media: [
+      {
+        type: "image",
+        src: "assets/images/Can-Sorter.jpg",
+        caption: "PLC-controlled conveyor sorting and can-crushing system"
+      },
+
+      {
+        type: "video",
+        src: "assets/videos/Can-Sorter-Demo.mp4",
+        caption: "Automated sorting and crushing sequence during system testing"
       }
     ]
   }

@@ -946,3 +946,30 @@ body.modal-open {
   margin-bottom: 0 !important;
   font-size: 0.64rem !important;
 }
+
+/* Sorter / Automation - Purple Theme */
+
+.project-card.theme-purple {
+  background: linear-gradient(to bottom, #ffffff 75%, #faf5ff 100%) !important;
+  border-color: #7e22ce !important;
+  box-shadow: 8px 8px 0 #e9d5ff !important;
+}
+
+.project-card.theme-purple:hover {
+  box-shadow: 13px 13px 0 #d8b4fe !important;
+}
+
+.project-card.theme-purple::before {
+  border-color: #7e22ce !important;
+  color: #7e22ce !important;
+}
+
+.project-card.theme-purple .project-category {
+  color: #9333ea !important;
+}
+
+.project-card.theme-purple .tags span {
+  background: #f3e8ff !important;
+  border-color: #7e22ce !important;
+  color: #6b21a8 !important;
+}
