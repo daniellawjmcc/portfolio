@@ -20,27 +20,27 @@ const projectData = {
       {
         type: "image",
         src: "assets/images/PenguinPi.jpg",
-        caption: "Close-up of the PenguinPi"
+        caption: "Close-up of the PenguinPi."
       },
       {
         type: "image",
         src: "assets/images/Fruit-List.png",
-        caption: "Fruits that needed to be recognized by training a YOLO model"
+        caption: "Fruits that needed to be recognized by training a YOLO model."
       },
       {
         type: "image",
         src: "assets/images/YOLO-Train.jpg",
-        caption: "YOLOv8 fruit detection training"
+        caption: "YOLOv8 fruit detection training."
       },
       {
         type: "image",
         src: "assets/images/Interface-1.png",
-        caption: "YOLOv8 fruit detection, ARUCO detection for self localisation, and Dijkstra algortihm integrated into the robot map"
+        caption: "YOLOv8 fruit detection, ARUCO detection for self localisation, and Dijkstra algortihm integrated into the robot map."
       },
       {
         type: "image",
         src: "assets/images/Interface-2.png",
-        caption: "Another picture of the interface, showing smaller circles representing less uncertainty, and hollow circles representing collected fruits "
+        caption: "Another picture of the interface, showing smaller circles representing less uncertainty, and hollow circles representing collected fruits. "
       }
     ]
   },
@@ -71,22 +71,22 @@ const projectData = {
       {
         type: "image",
         src: "assets/images/Warman-CAD.png",
-        caption: "Final CAD model of the robot design"
+        caption: "Final CAD model of the robot design."
       },
       {
         type: "video",
         src: "assets/videos/Warman-Servo.mp4",
-        caption: "Servo calibration for load collection mechanism"
+        caption: "Servo calibration for load collection mechanism."
       },
       {
         type: "video",
         src: "assets/videos/Warman-Test.mp4",
-        caption: "Robot testing and arena navigation demo"
+        caption: "Robot testing and arena navigation demo."
       },
       {
         type: "image",
         src: "assets/images/Award.jpg",
-        caption: "Award receiving for Champion"
+        caption: "Received award for Champion!"
       }
 
     ]
@@ -122,13 +122,13 @@ const projectData = {
       {
         type: "image",
         src: "assets/images/DIN-Enclosure.jpg",
-        caption: "Prototyping of Enclosure Design and Jig Design"
+        caption: "Prototyping of Enclosure Design and Jig Design."
       },
 
       {
         type: "image",
         src: "assets/images/Fibre-Laser.jpg",
-        caption: "Testing of Laser Etching Power to be implemented in design"
+        caption: "Testing of Laser Etching Power to be implemented in design."
       }
     ]
   },
@@ -165,19 +165,19 @@ const projectData = {
       {
         type: "image",
         src: "assets/images/MCAV-Car.jpg",
-        caption: "4WD four-wheel-steer vehicle platform developed by the MCAV team"
+        caption: "4WD four-wheel-steer vehicle platform developed by the MCAV team."
       },
 
       {
         type: "image",
         src: "assets/images/MCAV-CAD.png",
-        caption: "CAD design showing the chassis, drivetrain, suspension and steering system"
+        caption: "CAD design showing the chassis, drivetrain, suspension and steering system."
       },
 
       {
         type: "image",
         src: "assets/images/MCAV-Steer.jpg",
-        caption: "Ackermann steering and suspension assembly"
+        caption: "Ackermann steering and suspension assembly."
       }
     ]
   },
@@ -212,12 +212,26 @@ const projectData = {
         src: "assets/images/Can-Sorter.jpg",
         caption: "PLC-controlled conveyor sorting and can-crushing system"
       },
-
       {
         type: "video",
-        src: "assets/videos/Can-Sorter-Demo.mp4",
-        caption: "Automated sorting and crushing sequence during system testing"
-      }
+        src: "assets/videos/PLC-Can.mp4",
+        caption: "A video of the PLC logic in the system"
+      },
+      {
+        type: "video",
+        src: "assets/videos/Sorting-Can.mp4",
+        caption: "Automated sorting sequence during system testing, pneumatic actuator pushes non-cans off the belt."
+      },
+      {
+        type: "video",
+        src: "assets/videos/Crushing-Can.mp4",
+        caption: "Crushing sequence during system testing, occurs once 4 cans are in the chute and the conveyor belt is paused."
+      },
+      {
+        type: "image",
+        src: "assets/images/Group-Can.jpg",
+        caption: "Team photo taken after demonstration of the system."
+      },
     ]
   }
 };
