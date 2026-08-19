@@ -1049,14 +1049,20 @@ body.modal-open {
 
 
 .hero-name {
-  font-family: "Outfit", "Inter", sans-serif;
+  font-family: "Sora", "Inter", sans-serif;
   font-size: clamp(3.5rem, 7vw, 6.5rem) !important;
   line-height: 1 !important;
   font-weight: 800;
   letter-spacing: -0.04em;
   white-space: nowrap;
 
-  background: linear-gradient(90deg, #111827 0%, #374151 55%, #7c3aed 100%);
+  background: linear-gradient(
+    90deg,
+    #111827 0%,
+    #374151 55%,
+    #7c3aed 100%
+  );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
